@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <style>
+
+ 
+  
+
+ .container {
+  position: relative;
+  width: 50%;
+  
+ .column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+
+Clear floats after image containers
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+  
+  .row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #BD097A;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+</head>
+<body>
+  
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/w3css/3/w3.css">
+<body>
+<nav class="w3-bar w3-black">
+ <h1><font color= "purple"> <a href="home" class="w3-button w3-bar-item">Home</a> </h1></font>
+ <h1><font color= "purple"> <a href="quiz" class="w3-button w3-bar-item">Quiz</a></h1></font>
+  <h1><font color= "purple"><a href="influential_women" class="w3-button w3-bar-item">Influential Women</a> </h1> </font>
+</nav>
+<h1><center><font color="#330066
+"> There are so many amazing and influential women changing the world</font></center></h1>
+<h1><center><font color="#330066
+">Take the quiz to find out which one should be your role model</font> </center></h1>
+<h1><center><font color="#330066
+">or click the tab to learn about more amazing women.</</font> </center></h1>
+<h2><center><font color= "purple">  <a class="quiz" href="/quiz">Take The Quiz!</a></h2></center></font>
+<style>
+body{ 
+  background-image: url("http://www.amazingwomeninhistory.com/wp-content/uploads/amazing-women-in-history-background1.jpg"); 
+}
+
+</style>
+
+</body>
+</html>
+</body>
+</html>

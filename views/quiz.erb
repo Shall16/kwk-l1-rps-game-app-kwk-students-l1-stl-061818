@@ -1,0 +1,119 @@
+ <!DOCTYPE html> 
+<html lang="en"> 
+<head>
+  <title> Influential Women Quiz </title>
+  <style>
+    /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+
+Clear floats after image containers
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  
+   .row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+  </style>
+</head>
+<body>
+  <nav class="w3-bar w3-black">
+ <h1><font color= "pink"> <a href="home" class="w3-button w3-bar-item">Home</a> </h1></font>
+ <h1><font color= "pink"> <a href="quiz" class="w3-button w3-bar-item">Quiz</a></h1></font>
+  <h1><font color= "pink"><a href="influential_women" class="w3-button w3-bar-item">Influential Women</a> </h1> </font>
+</nav>
+  <style>
+body {background-color: white;}
+h1   {color: #ff3399;}
+</style>
+  <h1><center> Welcome to the Influential Women Quiz</center></h1> 
+  <form action="results" method="POST">
+  <h1> What job intrests you the most?</h1>
+  <input type="radio" name="job" value="A" > President<br>
+  <input type="radio" name="job" value="B"> Software Engineer<br>
+  <input type="radio" name="job" value="C"> Business Owner <br>
+  <input type="radio" name="job" value="D"> Athlete<br>
+  <input type="radio" name="job" value="E"> Preformer<br>
+  <input type="radio" name="job" value="F"> Doctor<br>
+  <input type="radio" name="job" value="G"> Grassroots organizier<br>
+  <input type="radio" name="job" value="H"> Editor-in-chief<br>
+<h1> What is your favorite subject? </h1> 
+<input type="radio" name="subject" value="A"> AP Gov<br>
+  <input type="radio" name="subject" value="B"> Math<br>
+  <input type="radio" name="subject" value="C"> Marketing<br>
+  <input type="radio" name="subject" value="D"> P.E.<br>
+  <input type="radio" name="subject" value="E"> Theater<br>
+  <input type="radio" name="subject" value="F"> Biomeical<br>
+  <input type="radio" name="subject" value="G"> Current Evetns<br>
+  <input type="radio" name="subject" value="H"> Journalism<br>
+  <h1> What is your favorite afterschool Activity?</h1>
+  <input type="radio" name="activity" value="A"> Speech and debate<br>
+  <input type="radio" name="activity" value="B"> Roboticts<br>
+  <input type="radio" name="activity" value="C"> DECA <br>
+  <input type="radio" name="activity" value="D"> Sports <br>
+  <input type="radio" name="activity" value="E"> Showchoir<br>
+  <input type="radio" name="activity" value="F"> Volunteer at hospital<br>
+  <input type="radio" name="activity" value="G"> An equity group<br>
+  <input type="radio" name="activity" value="H"> Newspaper<br>
+  <h1>What is your favorite televison show?</h1>
+  <input type="radio" name="shows" value="A" > Meet the Press<br>
+  <input type="radio" name="shows" value="B"> NASA TV<br>
+  <input type="radio" name="shows" value="C"> Shark Tank <br>
+  <input type="radio" name="shows" value="D" > ESPN<br>
+  <input type="radio" name="shows" value="E"> Live theater/musicals<br>
+  <input type="radio" name="shows" value="F"> Greys Anatomy<br>
+  <input type="radio" name="shows" value="G"> Today Show/News<br>
+  <input type="radio" name="shows" value="H"> Deadline Crime with Tameron Hall<br>
+  <h1> How do you like to spend your freetime/hobbies?</h1>
+  <input type="radio" name="hobbies" value="A" > Staying up to date on current events<br>
+  <input type="radio" name="hobbies" value="B"> At Kode with Klossy<br>
+  <input type="radio" name="hobbies" value="C"> Planning your startup <br>
+  <input type="radio" name="hobbies" value="D" > At the gym<br>
+  <input type="radio" name="hobbies" value="E"> Art museum<br>
+  <input type="radio" name="hobbies" value="F"> Raising money for medical research<br>
+  <input type="radio" name="hobbies" value="G"> Attending/planning a protest<br>
+  <input type="radio" name="hobbies" value="H"> Writting short stories/interviewing people<br>
+  <h1>What is your favorite movie?</h1>
+   <input type="radio" name="movie" value="A" checked> JFK<br>
+  <input type="radio" name="movie" value="B"> Hidden Figures<br>
+  <input type="radio" name="movie" value="C"> Jobs <br>
+  <input type="radio" name="movie" value="D" checked> The Blind Side<br>
+  <input type="radio" name="movie" value="E"> La la Land<br>
+  <input type="radio" name="movie" value="F"> Gifted Hands: The Ben Carson Story
+ <br>
+  <input type="radio" name="movie" value="G"> Selma<br>
+  <input type="radio" name="movie" value="H"> The Post<br>
+  <input type="submit" value="Submit"> 
+
+</form> 
+
+</body>
+</html>
